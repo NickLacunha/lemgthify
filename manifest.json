@@ -1,0 +1,11 @@
+{
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "replaces the forbiddem glyph with its lemgthy coumterpart.",
+   "manifest_version": 2,
+   "name": "lemgthify",
+   "version": "0.000000000001"
+}
